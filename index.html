@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to HTML</title>
+  </head>
+  <body>
+    <div>
+      This is div tag and it's a block element new div tag would be on another
+      line
+    </div>
+    <div>
+      This is div tag and it's a block element new div tag would be on another
+      line
+    </div>
+    <div>
+      This is div tag and it's a block element new div tag would be on another
+      line
+    </div>
+    <div>
+      This is div tag and it's a block element new div tag would be on another
+      line
+    </div>
+    <br />
+    <hr />
+    <br />
+    <span>Span tag appears on same line | </span>
+    <span>Span tag appears on same line | </span>
+    <span>Span tag appears on same line | </span>
+    <span>Span tag appears on same line | </span>
+
+    <!-- 
+## 1) div tag (Block elements => creates new blocks in new line )
+    div tag helps in putting the texts in new line with consecutive usage of div tags
+## 2) span tag (Inline element => creates new blocks in single line)
+   span tag helps in putting the texts in same line with consecutive usage of span tags-->
+
+    <!-- Now let's learn about video and audio-->
+    <video width="640" height="360" controls>
+      <!-- Here controls is used for play/pause etc-->
+      <source src="/Html/52. Let_s Code Reverse for Doubly Linked List.mp4" />
+    </video>
+    <!-- Different attributes of video tags are : 
+    1) controls : 
+    <video controls>
+    
+    2) autoplay : 
+    Automatically plays the video when the page loads. For autoplay to work, the video must be muted (for modern browsers due to policy restrictions).
+    <video autoplay muted>
+    
+    3) loop : 
+    Makes the video loop indefinitely (it will replay after finishing).
+    <video loop>
+    
+    4) poster=" " :
+    Displays an image before starting the video 
+    <video poster="image.jpg">
+    -->
+
+    <audio src=""></audio>
+    <!-- same goes for audio tag video and audio tag have similar functionnality 
+    and similar attributes like loop controls muted autoplay etc-->
+
+    <!-- marquee tag was used to create scrolling text or images across the screen, 
+    either horizontally or vertically
+    It's important to note that the <marquee> tag is obsolete and is no longer supported in HTML5. 
+    It's considered deprecated because it doesn't align with modern web standards, 
+    and there are better ways to create scrolling effects using CSS or JavaScript.
+     -->
+    <marquee direction="right" behaviour="alternate">
+        Your scrolling text goes here.
+    </marquee>
+    <marquee direction="right" scrollamount="10">
+        Scroll Amount 
+    </marquee>
+    <marquee direction="right" scrolldelay="100">
+        scroll delay
+    </marquee>
+
+    <!-- 
+    ATTRIBUTES : 
+    Direction: Defines the direction of the scrolling content.
+    Values: left, right, up, down
+    Default: left
+
+    Behaviour : Defines the scrolling behavior.
+    Values: scroll (default), slide, alternate
+    scroll: The text scrolls continuously.
+    slide: The text scrolls in and stops.
+    alternate: The text bounces back and forth.
+
+    scrollamount : Sets the speed of the scrolling content (in pixels) 
+
+    scrolldelay: Sets the delay between scroll movements (in milliseconds).
+
+    -->
+
+
+
+    <!-- IMPUT TAGS -->
+    <input type="text" name="" id="">
+    <input type="button" value="This is a button input" id="">
+    <input type="color" name="" id="">
+    <input type="checkbox" name="" id="">
+    <input type="date" name="" id="">
+    <input type="datetime" name="" id="">
+    <input type="datetime-local" name="" id="">
+    <input type="email" name="" id="">
+    <input type="image" src="" alt="">
+    <input type="radio" name="" id="">
+    <input type="radio" name="" id="">
+    <input type="radio" name="" id="">
+    <input type="password" name="" id="">
+
+    <select>
+        <option>Surat</option>
+        <option>Surat</option>
+        <option>Surat</option>
+    </select>
+  </body>
+</html>

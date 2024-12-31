@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html</title>
+</head>
+<body style="font-family: sans-serif;">
+    <h1>Student Registration Form : </h1>
+    <table align="center" cellpadding="7">
+        <tr>
+            <td><label for="firstname">First Name : </label></td>
+            <td><input type="text" placeholder="Firstname" id="firstname" maxlength="40">
+            (max 40 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td><label for="lastname">Last Name : </label></td>
+            <td><input type="text" placeholder="Lastname" id="lastname" maxlength="40">
+            (max 40 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td><label for="dateofbirth">Date of birth : </label></td>
+            <td><input type="date" id="dateofbirth" name="DateofBirth"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email : </label></td>
+            <td><input type="email" placeholder="Email_Id" name="EmailId" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="mobile">Phone no : </label></td>
+            <td><input type="number" id="mobile" placeholder="Phone number" maxlength="10" minlength="10">
+            (10 digit number)</td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>Male<input type="radio" value="Male" name="gender">
+            Female<input type="radio" value="Female" name="gender">
+            </td>
+
+        </tr>
+        <tr>
+            <td><label for="address">Address : </label></td>
+            <td><textarea name="address" id="address" placeholder="address" cols="25" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="pincode">Pincode : </label></td>
+            <td><input type="number" name="pincode" id="pincode" placeholder="pincode" maxlength="6"></td>
+        </tr>
+        <tr>
+            <td><label for="country">Country : </label></td>
+            <td><input type="text" value="India" name="country" id="country" placeholder="country"></td>
+        </tr>
+        <tr>
+            <td><label for="hobbies">Hobbies : </label></td>
+            <td>
+            Singing : <input type="checkbox" name="hobbies" id="Singing">
+            Dancing : <input type="checkbox" name="hobbies" id="Dancing">
+            Reading : <input type="checkbox" name="hobbies" id="Reading">
+            Playing : <input type="checkbox" name="hobbies" id="Playing">
+            Others : <input type="checkbox" name="hobbies" id="Others">
+            </td>
+        </tr>
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Please add your data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            
+                            <td align="center">S.No</td>
+                            <td align="center">Examination</td>
+                            <td align="center">Board/University</td>
+                            <td align="center">Percentage</td>
+                            <td align="center">Year of passing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Sarvajanik college of Engineering and technology</h3>
+    <h3><u>CLASS TIM ETABLE (Effective From : 01/07/2024)</u></h3>
+    <table>
+        <td>
+            <th>B.Tech-II CO (Div-1)</th>
+            <th>Semester</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+
+        </td>
+    </table>
+</body>
+</html> -->
